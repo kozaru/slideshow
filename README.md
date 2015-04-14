@@ -18,14 +18,21 @@ and click "Install". Easy peasy.
 # Install Harp
 npm install harp --global
 
+# Install browser-sync
+npm install browser-sync --global
+
 # Download this repo as your harp boilerplate
-harp init myshow --boilerplate zeke/slideshow
+harp init myshow --boilerplate kozaru/slideshow
+
+# npm package install
+npm install
 
 # Run the server
 harp server myshow
-```
 
-Now open [localhost:9000](http://localhost:9000) in your browser. Rejoice.
+# Run LiveReload (other tab in terminal)
+npm start
+```
 
 ## License
 
