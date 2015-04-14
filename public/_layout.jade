@@ -1,21 +1,21 @@
 doctype html
 html
-  head
-    title= title
+	head
+		title= title
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    //- Stylesheets
-    link(href="styles/highlight-themes/paraiso.light.css", rel="stylesheet")
-    link(href="styles/styles.css", rel="stylesheet")
+		//- Stylesheets
+		link(href="styles/highlight-themes/paraiso.light.css", rel="stylesheet")
+		link(href="styles/styles.css", rel="stylesheet")
 
 
-    //- Javascripts
-    script(src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js")
-    script(src="scripts/carousel.js")
-    script(src="scripts/highlight.min.js")
-    script(src="scripts/app.js")
+		//- Javascripts
+		script(src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js")
+		script(src="scripts/carousel.js")
+		script(src="scripts/highlight.min.js")
+		script(src="scripts/app.js")
 
-  body
-    != yield
+	body
+		!= yield
 
