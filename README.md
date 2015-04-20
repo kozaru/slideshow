@@ -22,13 +22,14 @@ npm install harp --global
 npm install browser-sync --global
 
 # Download this repo as your harp boilerplate
-harp init myshow --boilerplate kozaru/slideshow
+harp init [your project name] --boilerplate kozaru/slideshow
 
 # npm package install
+cd [your project name]
 npm install
 
 # Run the server
-harp server myshow
+harp server
 
 # Run LiveReload (other tab in terminal)
 npm start
