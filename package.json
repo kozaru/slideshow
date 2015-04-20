@@ -7,5 +7,8 @@
     "start": "browser-sync start --proxy localhost:9000 --files 'public/*.jade, public/*.json, public/images/*, public/script/*.js, public/style/*, public/style/**/*'"
   },
   "author": "kozaru",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "bootstrap": "~ 3.3.4"
+  }
 }
